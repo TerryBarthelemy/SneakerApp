@@ -26,6 +26,6 @@ If an individual or company call the employee to cancel an order or make a payme
 employee has the control to make that decision. 
 
 Admin: Create an account. Browse the main pages. Purchase items. Create, Read, Update, 
-Delete any product or user in the database. The admin has all round access to all reources
-SneakerHub
+Delete any product or user in the database. The admin has all around access to all reources
+in SneakerHub
 
