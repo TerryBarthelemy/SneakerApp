@@ -18,7 +18,7 @@ builder.Services.AddControllersWithViews();
 
 var services = builder.Services;
 services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-    builder.Configuration.GetConnectionString("DefaultConnection")
+    builder.Configuration.GetConnectionString("defaultConnection")
     ));
 services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
